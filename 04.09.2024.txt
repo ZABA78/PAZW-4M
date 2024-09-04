@@ -1,0 +1,4 @@
+node -e "var x=1; var y=2;console.log(x+y);"
+node -e "var x=70; console.log(x**(1/6));"
+node -e "console.log(new Date());"
+node ok.js
