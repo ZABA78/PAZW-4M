@@ -1,4 +1,14 @@
 node -e "var x=1; var y=2;console.log(x+y);"
 node -e "var x=70; console.log(x**(1/6));"
-node -e "console.log(new Date());"
-node ok.js
+node -e "console.log(new Date());"                                                      <>VSC<>
+node ok.js----------------------------------------------------------->const os = require('os');
+
+                                                                      console.log('Platforma:', os.platform());
+                                                                      console.log('Architektura:', os.arch());
+                                                                      console.log('Wersja systemu:', os.release());
+                                                                      console.log('Nazwa hosta:', os.hostname());
+                                                                      console.log('Czas pracy systemu (sekundy):', os.uptime());
+                                                                      console.log('Wolna pamięć (MB):', (os.freemem() / 1024 / 1024).toFixed(2));
+                                                                      console.log('Całkowita pamięć (MB):', (os.totalmem() / 1024 / 1024).toFixed(2));
+                                                                      console.log('Informacje o CPU:', os.cpus());
+                                                                      console.log('Ścieżka katalogu domowego:', os.homedir());
